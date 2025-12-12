@@ -4,14 +4,14 @@
 
 **Memonest** is a **full-stack notes application** built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). Users can **create, read, update, and delete notes** and enjoy **light/dark mode**.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Frontend](https://img.shields.io/badge/Frontend-React-blue)](#)
+- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+- [![Frontend](https://img.shields.io/badge/Frontend-React-blue)](#)
 [![Backend](https://img.shields.io/badge/Backend-Node.js-green)](#)
-[![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)](#)
-[![Build](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/memonest/nodejs.yml?branch=main)](https://github.com/YOUR_USERNAME/memonest/actions)
-[![Open Issues](https://img.shields.io/github/issues/YOUR_USERNAME/memonest)](https://github.com/YOUR_USERNAME/memonest/issues)
-[![NPM Version](https://img.shields.io/npm/v/memonest?color=blue)](https://www.npmjs.com/package/memonest)
-[![Deploy](https://img.shields.io/badge/Deploy-Render-brightgreen)](https://memonest.onrender.com)
+- [![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)](#)
+- [![Build](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/memonest/nodejs.yml?branch=main)](https://github.com/YOUR_USERNAME/memonest/actions)
+- [![Open Issues](https://img.shields.io/github/issues/YOUR_USERNAME/memonest)](https://github.com/YOUR_USERNAME/memonest/issues)
+- [![NPM Version](https://img.shields.io/npm/v/memonest?color=blue)](https://www.npmjs.com/package/memonest)
+- [![Deploy](https://img.shields.io/badge/Deploy-Render-brightgreen)](https://memonest.onrender.com)
 
 ---
 
@@ -31,7 +31,7 @@
 ## ✨ Features
 
 - ✅ **Create, edit, delete, and view notes**
-- ✅ **Responsive UI** with **light/dark theme toggle**
+- ✅ **Responsive UI** 
 - ✅ Notes stored in **MongoDB**
 - ✅ **RESTful API backend** with Express.js
 - ✅ **React frontend** with modern UI
@@ -54,8 +54,19 @@
 ![Homepage Screenshot](./screenshots/homepage.png)
 ![Homepage Screenshot](./screenshots/home.png)
 
-**Note Detail Page**  
-![Note Detail Screenshot](./screenshots/note-detail.png)
+**Note Create Page**  
+![Note Detail Screenshot](./screenshots/createnotespage.png)
+![Note Detail Screenshot](./screenshots/create.png)
+
+**Note Edit Page**  
+![Note Edit Screenshot](./screenshots/editpage.png)
+
+**Note Delete**  
+![Note Delete Screenshot](./screenshots/delete.png)
+![Note Delete Screenshot](./screenshots/deletednote.png)
+
+**Rate Limit**  
+![Rate Limit Screenshot](./screenshots/ratelimit.png)
 
 **Theme Toggle**  
 ![Theme Screenshot](./screenshots/theme-toggle.png)
@@ -70,4 +81,8 @@
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/memonest.git
-cd memonest
+cd memonest 
+
+---
+
+
