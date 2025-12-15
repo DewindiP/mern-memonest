@@ -8,8 +8,6 @@
 - [![Frontend](https://img.shields.io/badge/Frontend-React-blue)](#)
 [![Backend](https://img.shields.io/badge/Backend-Node.js-green)](#)
 - [![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)](#)
-- [![Build](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/memonest/nodejs.yml?branch=main)](https://github.com/YOUR_USERNAME/memonest/actions)
-- [![Open Issues](https://img.shields.io/github/issues/YOUR_USERNAME/memonest)](https://github.com/YOUR_USERNAME/memonest/issues)
 - [![NPM Version](https://img.shields.io/npm/v/memonest?color=blue)](https://www.npmjs.com/package/memonest)
 - [![Deploy](https://img.shields.io/badge/Deploy-Render-brightgreen)](https://memonest.onrender.com)
 
@@ -71,7 +69,6 @@
 **Theme Toggle**  
 ![Theme Screenshot](./screenshots/theme-toggle.png)
 
-> 💡 Save your screenshots in a folder named `screenshots` in your repo.
 
 ---
 
@@ -81,8 +78,73 @@
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/memonest.git
-cd memonest 
+cd memonest
+```
+### 2️⃣ Install Dependencies
 
----
+Backend
+
+```bash
+cd backend
+npm install
+```
+Frontend
+
+```bash
+cd ../frontend
+npm install
+```
+### 3️⃣ Setup Environment Variables
+
+Backend (.env):
+
+```bash
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+Frontend (.env):
+
+```bash
+VITE_API_URL=http://localhost:5000
+```
+4️⃣ Run Locally
+
+Backend
+
+```bash
+cd backend
+npm run dev
+```
+Frontend
+
+```bash
+cd frontend
+npm run dev
+```
+
+Open browser: http://localhost:5173
+
+🗂 Folder Structure
+
+```lua 
+memonest/
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── package.json
+│   └── server.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.jsx
+│   ├── package.json
+│   └── vite.config.js
+├── package.json
+└── README.md
+```
+
 
 
