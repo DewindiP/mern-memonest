@@ -49,7 +49,6 @@
 ## 📸 Screenshots
 
 **Homepage (Notes List)**  
-![Homepage Screenshot](./screenshots/homepage.png)
 ![Homepage Screenshot](./screenshots/home.png)
 
 **Note Create Page**  
