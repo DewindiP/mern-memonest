@@ -1,6 +1,6 @@
 # 🌟 Memonest — MERN Stack Notes App
 
-![Memonest Screenshot](./screenshots/homepage.png)
+![Memonest Screenshot](./screenshots/home.png)
 
 **Memonest** is a **full-stack notes application** built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). Users can **create, read, update, and delete notes** and enjoy **light/dark mode**.
 
