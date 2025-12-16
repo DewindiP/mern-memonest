@@ -4,7 +4,6 @@
 
 **Memonest** is a **full-stack notes application** built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). Users can **create, read, update, and delete notes**.
 
-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 - [![Frontend](https://img.shields.io/badge/Frontend-React-blue)](#)
 [![Backend](https://img.shields.io/badge/Backend-Node.js-green)](#)
 - [![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)](#)
