@@ -62,8 +62,7 @@
 **Rate Limit**  
 ![Rate Limit Screenshot](./screenshots/ratelimit.png)
 
-**Theme Toggle**  
-![Theme Screenshot](./screenshots/theme-toggle.png)
+
 
 
 ---
